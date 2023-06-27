@@ -1,3 +1,4 @@
+
 import mockup from '../images/homepage/mockup.png'
 import corn from '../images/homepage/corn.png'
 import deliverytruck from '../images/homepage/delivery-truck.png'
