@@ -41,12 +41,12 @@ const Homepage = () => {
 					<div className="bg-kimberly-600  mr-20 h-20 w-20 relative rounded-full"></div>
 					<div className="bg-tickle-me-pink-600 xl:float-right ml-20 h-4 w-4 relative rounded-full"></div>
 					<div className="
-					w-1/2 h-1/2 sm:w-1/3 sm:h-1/3 md:w-1/4 md:h-1/4 xl:w-1/4 xl:h-1/4 
+					w-1/2 h-1/2 sm:w-1/3 sm:h-1/3 xl:w-1/4 xl:h-1/4 
 					bg-yellow-500 rounded-full aspect-w-1 aspect-h-1
 					p-36 lg:p-64 xl:p-80 relative mx-auto">
 						<img className="
-							mt-0 h-auto h-fit xl:h-max 
-							absolute top-1/2 right-0 xl:-right-12 lg:-right-10 
+							mt-0 h-auto h-fit md:h-max xl:h-max 
+							absolute top-1/2 right-0 xl:-right-4 lg:-right--8 
 							transform -translate-y-1/2"
    							src={mockup} alt="grep mockup" 
    						/>

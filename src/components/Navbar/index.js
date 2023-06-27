@@ -22,10 +22,10 @@ const Navbar = () => {
 						<a className="mr-8 capitalize text-xl text-blue-900 hover:text-kimberly-600" href="/contact">contact</a>
 					</div>
 					<div className="
-					flex justify-end
+						flex
+						justify-end
 						lg:hidden
-				        md:hidden
-				        bg-red-500">
+				        md:hidden">
 						<button id="menu" className="
 					        focus:outline-none
 					        focus-visible:ring-4
