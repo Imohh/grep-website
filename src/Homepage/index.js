@@ -11,21 +11,37 @@ const Homepage = () => {
 	return (
 		<>
 			{/*HERO SECTION*/}
-			<div className="grid grid-cols-2 py-20">
-				<div>
-					<h1>Know the status of your order</h1>
-					<h1>Track your order</h1>
-					<p>Kndly fill in your order ID</p>
-					<form>
-						<input type="text" placeholder="Order ID" />
-						<button>search</button>
+			<div className="grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 px-5 pb-44 lg:px-10 xl:px-64 mx-auto">
+				<div className="mt-10 md:mt-20 lg:mt-44 lg:mx-auto">
+					<h1 className="text-xl lg:text-2xl text-pink-500 mb-5">Know the status of your order</h1>
+					<h1 className="text-4xl lg:text-6xl font-semibold mb-6">Track your order</h1>
+					<p className="text-gray-400 mb-14 text-xl lg:text-2xl">Kndly fill in your order ID</p>
+					<form className="flex items-center">
+					  <input
+					    type="text"
+					    placeholder="Order ID"
+					    className="w-full py-4 px-6 text-xl rounded-l-md border border-r-0 bg-white shadow-xl"
+					  />
+					  <button className="py-5 px-4 rounded-r-md bg-pink-500 text-white shadow-xl">Search</button>
 					</form>
 				</div>
-				{/*<div className="mt-20">
-					<div className="py-80 px-40 bg-yellow-500 relative rounded-full">
-						<img className="w-1/2 h-fit absolute top-1/2 left-12 transform -translate-y-1/2" src={mockup} alt="grep mockup" />
+				<div className="mt-20 sm:mt-20 md:mt-0 lg:mt-36">
+					<div className="bg-purple-900  mr-20 h-20 w-20 relative rounded-full"></div>
+					<div className="bg-pink-400 xl:float-right ml-20 h-4 w-4 relative rounded-full"></div>
+					<div className="
+					w-1/2 h-1/2 sm:w-1/3 sm:h-1/3 md:w-1/4 md:h-1/4 xl:w-1/6 xl:h-1/6 
+					bg-yellow-500 rounded-full aspect-w-1 aspect-h-1
+					p-36 lg:p-64 xl:p-80 relative mx-auto">
+						<img className="
+							mt-0 h-auto h-fit xl:h-max 
+							absolute top-1/2 right-0 xl:-right-12 lg:-right-10 
+							transform -translate-y-1/2"
+   							src={mockup} alt="grep mockup" 
+   						/>
 					</div>
-				</div>*/}
+					<div className="bg-pink-400 relative float-right ml-20 h-8 w-8 rounded-full"></div>
+					
+				</div>
 			</div>
 
 			{/*SECOND SECCTION*/}
