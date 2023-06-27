@@ -11,7 +11,7 @@ const Homepage = () => {
 	return (
 		<>
 			{/*HERO SECTION*/}
-			<div className="grid grid-cols-2">
+			<div className="grid grid-cols-2 py-20">
 				<div>
 					<h1>Know the status of your order</h1>
 					<h1>Track your order</h1>
@@ -21,9 +21,11 @@ const Homepage = () => {
 						<button>search</button>
 					</form>
 				</div>
-				<div>
-					<img src={mockup} alt="grep mockup" />
-				</div>
+				{/*<div className="mt-20">
+					<div className="py-80 px-40 bg-yellow-500 relative rounded-full">
+						<img className="w-1/2 h-fit absolute top-1/2 left-12 transform -translate-y-1/2" src={mockup} alt="grep mockup" />
+					</div>
+				</div>*/}
 			</div>
 
 			{/*SECOND SECCTION*/}
@@ -54,53 +56,68 @@ const Homepage = () => {
 			</div>
 
 			{/*FORTH SECTION*/}
-			<div>
-				<h2>why grep errands</h2>
-				<p>Here are some of the reasons why you should use Grep Errands.</p>
-				<div className="grid grid-cols-3">
-					<div>
-						<img src={corn} alt="corn" />
-						<h3>Affordability</h3>
-						<p>With just N200 you can run errands with ease. We also give free errand after every 5 referral on our app.</p>
+			<div className="py-40">
+				<h2 className="text-center text-5xl capitalize pb-5 md:pb-10 font-semibold px-5 lg:px-0 md:px-0">why grep errands</h2>
+				<p className="text-center text-base sm:text-lg px-5 lg:px-0 md:px-0">Here are some of the reasons why you should use Grep Errands.</p>
+				<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 mt-20 px-10 lg:px-20 md:px-20 sm:px-20">
+					<div className="text-center mb-20 text-blue-900">
+						<img className="mx-auto" src={corn} alt="corn" />
+						<h3 className="capitalize text-xl sm:text-2xl py-5 font-semibold">Affordability</h3>
+						<p className="text-xl w-full lg:w-11/12 mx-auto">With just N200 you can run errands with ease. We also give free errand after every 5 referral on our app.</p>
 					</div>
-					<div>
-						<img src={store} alt="corn" />
-						<h3>you can trust us</h3>
-						<p>We hire trusted errand persons to run these errands, we know how important trust is when it comes to business.</p>
+					<div className="text-center mb-20 text-blue-900">
+						<img className="mx-auto" src={store} alt="corn" />
+						<h3 className="capitalize text-xl sm:text-2xl py-5 font-semibold">you can trust us</h3>
+						<p className="text-lg w-full lg:w-11/12 mx-auto">We hire trusted errand persons to run these errands, we know how important trust is when it comes to business.</p>
 					</div>
-					<div>
-						<img src={groceries} alt="corn" />
-						<h3>efficient</h3>
-						<p>We make sure our customer's satisfaction is our goal. With that you can be rest assured that we will always deliver.</p>
+					<div className="text-center mb-20 text-blue-900">
+						<img className="mx-auto" src={groceries} alt="corn" />
+						<h3 className="capitalize text-xl sm:text-2xl py-5 font-semibold">efficient</h3>
+						<p className="text-lg w-full lg:w-11/12 mx-auto">We make sure our customer's satisfaction is our goal. With that you can be rest assured that we will always deliver.</p>
 					</div>
-					<div>
-						<img src={notification} alt="corn" />
-						<h3>easy to use</h3>
-						<p>Our app is very straightforward to use, Once our users fill out the form an errand person is ready to attend to the order</p>
+					<div className="text-center mb-20 text-blue-900">
+						<img className="mx-auto" src={notification} alt="corn" />
+						<h3 className="capitalize text-xl sm:text-2xl py-5 font-semibold">easy to use</h3>
+						<p className="text-lg w-full lg:w-11/12 mx-auto">Our app is very straightforward to use, Once our users fill out the form an errand person is ready to attend to the order</p>
 					</div>
-					<div>
-						<img src={deliverytruck} alt="corn" />
-						<h3>24/7 support service</h3>
-						<p>We are always eager to get feedback from our users, Our helpline is active and ready to attend to you.</p>
+					<div className="text-center mb-20 text-blue-900">
+						<img className="mx-auto" src={deliverytruck} alt="corn" />
+						<h3 className="capitalize text-xl sm:text-2xl py-5 font-semibold">24/7 support service</h3>
+						<p className="text-lg w-full lg:w-11/12 mx-auto">We are always eager to get feedback from our users, Our helpline is active and ready to attend to you.</p>
 					</div>
-					<div>
-						<img src={grapefruit} alt="corn" />
-						<h3>customer orders</h3>
-						<p>I zonked argy-bargy pear shaped gutted mate say cheesed off pukka tickety boo fantastic.</p>
+					<div className="text-center mb-20 text-blue-900">
+						<img className="mx-auto"src={grapefruit} alt="corn" />
+						<h3 className="capitalize text-xl sm:text-2xl py-5 font-semibold">customer orders</h3>
+						<p className="text-lg w-full lg:w-11/12 mx-auto">I zonked argy-bargy pear shaped gutted mate say cheesed off pukka tickety boo fantastic.</p>
 					</div>
 				</div>
 			</div>
 
 			{/*FIFTH SECTION*/}
-			<div className="grid grid-cols-2">
-				<div>
-					<img src={ge7} alt="grep mockup" />
+			<div className="grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-4 px-10 pb-44 lg:px-10 xl:px-40 mx-auto">
+				<div className="">
+					<div className="
+					w-1/2 h-1/2 sm:w-1/3 sm:h-1/3 md:w-1/4 md:h-1/4 xl:w-1/6 xl:h-1/6 bg-purple-900 rounded-full aspect-w-1 aspect-h-1
+					p-36 lg:p-72 relative mx-auto">
+						<div className="bg-red-500 mr-40 rounded-full">
+							<img className="
+								lg:w-2/3 xl:w-10/12 h-auto lg:h-fit h-screen 
+								absolute top-1/2 left-0 xl:left-18 lg:left-12 
+								transform -translate-y-1/2"
+   								src={ge7} alt="grep mockup" 
+   							/>
+						</div>
+					</div>
 				</div>
-				<div>
-					<h2>We are ready to attend to your orders</h2>
-					<p>Our errand persons are always happy to receive your orders. 
+				<div className="my-auto ml-0 lg:ml-20">
+					<h2 className="
+					mt-28 md:mt-0 capitalize pb-5 md:pb-10 
+					px-5 lg:px-0 md:px-0
+					lg:text-5xl md:text-3xl text-2xl
+					md:text-left lg:text-left text-center font-semibold ">We are ready to attend to your orders</h2>
+					<p className="md:text-left text-center text-lg md:text-xl mb-10">Our errand persons are always happy to receive your orders. 
 					You can set reminders and we will be sure to remind you at all times. It's easy and straight forward.</p>
-					<button>get started</button>
+					<button className="mx-auto">get started</button>
 				</div>
 			</div>
 
