@@ -4,7 +4,7 @@ const Navbar = () => {
 	return (
 		<>
 			<div className="py-5 lg:py-10">
-				<div className="grid grid-cols-3 w-full lg:w-2/3 mx-auto">
+				<div className="grid grid-cols-2 lg:grid-cols-3 w-full lg:w-2/3 mx-auto">
 					<div className="">
 						<img className="w-16 md:w-24 lg:w-28" src={logo} alt="Grep Logo" />
 					</div>
@@ -21,23 +21,27 @@ const Navbar = () => {
 						<a className="mr-8 capitalize text-xl text-blue-900 hover:text-kimberly-600" href="/download">download</a>
 						<a className="mr-8 capitalize text-xl text-blue-900 hover:text-kimberly-600" href="/contact">contact</a>
 					</div>
-					<button id="menu" className="
-				        lg:hidden
+					<div className="
+					flex justify-end
+						lg:hidden
 				        md:hidden
-				        focus:outline-none
-				        focus-visible:ring-4
-				        ring-neutral-900
-				        rounded-sm
-				        ring-offset-4
-				        ring-offset-green-900
-				        text-black
-				        hover:text-white-600
-				        transition-colors
-				        "
-				        aria-expanded="false"
-				        aria-label="Open Menu">
-				        menu
-				    </button>
+				        bg-red-500">
+						<button id="menu" className="
+					        focus:outline-none
+					        focus-visible:ring-4
+					        ring-neutral-900
+					        rounded-sm
+					        ring-offset-4
+					        ring-offset-green-900
+					        text-black
+					        hover:text-white-600
+					        transition-colors
+					        "
+					        aria-expanded="false"
+					        aria-label="Open Menu">
+					        menu
+					    </button>
+				    </div>
 					<div className="hidden text-right lg:grid">
 						button
 					</div>

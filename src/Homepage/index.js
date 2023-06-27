@@ -23,7 +23,7 @@ const Homepage = () => {
 	return (
 		<>
 			{/*HERO SECTION*/}
-			<div className="grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 px-5 pb-44 lg:px-10 xl:px-44 mx-auto">
+			<div className="grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 px-5 pb-18 sm:pb-18 md:pb-18 xl:pb-44 lg:pb-44 lg:px-10 xl:px-44 mx-auto">
 				<div className="mt-10 md:mt-20 lg:mt-44 lg:mx-auto">
 					<h1 className="text-xl lg:text-2xl text-tickle-me-pink-600 mb-5">Know the status of your order</h1>
 					<h1 className="text-4xl lg:text-6xl font-semibold mb-6 text-port-gore-600">Track your order</h1>
@@ -37,11 +37,11 @@ const Homepage = () => {
 					  <button className="py-5 px-4 rounded-r-md bg-tickle-me-pink-600 text-white shadow-xl">Search</button>
 					</form>
 				</div>
-				<div className="mt-20 sm:mt-20 md:mt-0 lg:mt-36">
+				<div className="mt-20 sm:mt-20 md:mt-0 lg:mt-36 w-full">
 					<div className="bg-kimberly-600  mr-20 h-20 w-20 relative rounded-full"></div>
 					<div className="bg-tickle-me-pink-600 xl:float-right ml-20 h-4 w-4 relative rounded-full"></div>
 					<div className="
-					w-1/2 h-1/2 sm:w-1/3 sm:h-1/3 md:w-1/4 md:h-1/4 xl:w-1/6 xl:h-1/6 
+					w-1/2 h-1/2 sm:w-1/3 sm:h-1/3 md:w-1/4 md:h-1/4 xl:w-1/4 xl:h-1/4 
 					bg-yellow-500 rounded-full aspect-w-1 aspect-h-1
 					p-36 lg:p-64 xl:p-80 relative mx-auto">
 						<img className="
@@ -112,21 +112,21 @@ const Homepage = () => {
 
 			{/*THIRD SECTION*/}
 			<div className="overflow-hidden h-screen grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-4 
-				py-40 px-10 pb-44 lg:px-10 xl:px-40 mx-auto
+				lg:py-40 px-10 lg:pb-44 lg:px-10 xl:px-40 mx-auto
 				bg-gradient-to-r from-yellow-200 to-tickle-me-pink-600">
-				<div className="-mt-80 -ml-80">
+				<div className="-mt-20 -ml-20 lg:-mt-80 lg:-ml-80">
 					<img className=" -mt-96 -ml-52" src={ge6} alt="mockup" />
 					<img className="object-contain -mt-96" src={ge4} alt="mockup" />
 					<img className="object-contain -mt-96 ml-96" src={ge3} alt="mockup" />
 				</div>
-				<div className="mt-10 py-auto pr-40">
-					<h2 className="text-white text-center lg:text-left text-5xl capitalize pb-5 md:pb-10 font-semibold px-5 lg:px-0 md:px-0">
+				<div className="mt-0 py-0 lg:mt-10 lg:py-auto pr-0 lg:pr-40 ">
+					<h2 className="text-white text-center lg:text-left text-3xl lg:text-5xl capitalize pb-5 md:pb-10 font-semibold px-5 lg:px-0 md:px-0">
 					Get the Grep app for your mobile devices</h2>
 					<p className="text-white md:text-left text-center text-lg md:text-xl lg:text-xl xl:text-xl mb-10">Download the Grep app today and let us run those errands for you with in no time. It's free!</p>
-					<button className="py-1 px-5 xl:w-56 text-left bg-tickle-me-pink-600 rounded-full mr-5 text-white text-lg">
+					<button className="mb-5 lg:mb-0 xl:mb-0 w-11/12 py-1 px-5 xl:w-56 text-left bg-tickle-me-pink-600 rounded-full mr-5 text-white text-lg">
 						<img  className="w-10 pt-2 ml-2 mr-5 float-left " src={googleplay} /><span className="text-xl">Download</span> for Android
 					</button>
-					<button className="py-1 px-5 xl:w-56 text-left bg-white rounded-full text-tickle-me-pink-600 text-lg">
+					<button className="w-11/12 py-1 px-5 xl:w-56 text-left bg-white rounded-full text-tickle-me-pink-600 text-lg">
 						<img className="w-10 ml-2 mr-5 pt-2 float-left" src={appstore} /><span className="mt-10"><span className="text-xl">Download</span> for iOS</span>
 					</button>
 				</div>
@@ -134,7 +134,7 @@ const Homepage = () => {
 
 			{/*FORTH SECTION*/}
 			<div className="py-40">
-				<h2 className="text-center text-5xl text-port-gore-600 capitalize pb-5 md:pb-10 font-semibold px-5 lg:px-0 md:px-0">why grep errands</h2>
+				<h2 className="text-center text-3xl lg:text-5xl xl:text-5xl text-port-gore-600 capitalize pb-5 md:pb-10 font-semibold px-5 lg:px-0 md:px-0">why grep errands</h2>
 				<p className="text-center text-base sm:text-xl text-port-gore-600 px-5 lg:px-0 md:px-0">Here are some of the reasons why you should use Grep Errands.</p>
 				<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 mt-20 px-10 lg:px-20 md:px-20 sm:px-20">
 					<div className="text-center mb-20 text-port-gore-600">
@@ -194,7 +194,7 @@ const Homepage = () => {
 					md:text-left lg:text-left text-center font-semibold text-port-gore-600">We are ready to attend to your orders</h2>
 					<p className="text-port-gore-600 md:text-left text-center text-lg md:text-xl mb-10">Our errand persons are always happy to receive your orders. 
 					You can set reminders and we will be sure to remind you at all times. It's easy and straight forward.</p>
-					<button className="mx-auto">get started</button>
+					<button className="">get started</button>
 				</div>
 			</div>
 
