@@ -5,12 +5,17 @@ import groceries from '../images/homepage/groceries.png'
 import notification from '../images/homepage/notification.png'
 import store from '../images/homepage/store.png'
 import grapefruit from '../images/homepage/grapefruit.png'
+import ge3 from '../images/homepage/ge3.png'
+import ge4 from '../images/homepage/ge4.png'
+import ge6 from '../images/homepage/ge6.png'
 import ge7 from '../images/homepage/ge7.png'
 import firstsection from '../images/homepage/first-section.png'
 import secondsection from '../images/homepage/second-section.png'
 import thirdsection from '../images/homepage/third-section.png'
 import grafeman1 from '../images/homepage/grafe_man_1.png'
 import grafeman2 from '../images/homepage/grafe_man_2.png'
+import googleplay from '../images/homepage/googleplay.png'
+import appstore from '../images/homepage/applestore.png'
 
 
 
@@ -66,44 +71,52 @@ const Homepage = () => {
 				  <img
 				    className="float-left mt-10 sm:mt-44 xl:mt-56 lg:mt-44 md:mt-40 w-20 w-20 sm:w-28 md:w-20 lg:w-28 xl:w-28 2xl:w-1/2 h-auto lg:h-fit h-screen top-1/2 left-0 xl:left-18 lg:left-12"
 				    src={grafeman1}
-				    alt="image"
+				    alt="grafe man"
 				  />
 				  <div className="">
 				    <img
 				      className="shadow-lg w-full lg:w-full xl:w-full h-auto lg:h-fit h-screen top-1/2 left-0 xl:left-18 lg:left-12 mb-5"
 				      src={firstsection}
-				      alt="image"
+				      alt="first icon"
 				    />
 				    <img
 				      className="shadow-lg lg:w-full xl:w-full h-auto lg:h-fit h-screen top-1/2 left-0 xl:left-18 lg:left-12 mb-5"
 				      src={secondsection}
-				      alt="image"
+				      alt="second icon"
 				    />
 				    <img
 				      className="shadow-lg lg:w-full xl:w-full h-auto lg:h-fit h-screen top-1/2 left-0 xl:left-18 lg:left-12"
 				      src={thirdsection}
-				      alt="image"
+				      alt="third icon"
 				    />
 				  </div>
 				  <img
 				    className="xl:mt-18 lg:mt-10 w-20 sm:w-28 md:w-20 lg:w-28 xl:w-28 2xl:w-11/12 h-auto lg:h-fit h-screen left-0 xl:left-1 lg:left-1"
 				    src={grafeman2}
-				    alt="image"
+				    alt="grafe man"
 				  />
 				</div>
 			</div>
 
 			{/*THIRD SECTION*/}
-			<div className="grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-4 py-40 px-10 pb-44 lg:px-10 xl:px-40 mx-auto
+			<div className="overflow-hidden h-screen grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-4 
+				py-40 px-10 pb-44 lg:px-10 xl:px-40 mx-auto
 				bg-gradient-to-r from-yellow-200 to-tickle-me-pink-600">
-				<div>
-
+				<div className="-mt-80 -ml-80">
+					<img className=" -mt-96 -ml-52" src={ge6} alt="mockup" />
+					<img className="object-contain -mt-96" src={ge4} alt="mockup" />
+					<img className="object-contain -mt-96 ml-96" src={ge3} alt="mockup" />
 				</div>
-				<div>
-					<h2 className="text-white text-center lg:text-left text-5xl capitalize pb-5 md:pb-10 font-semibold px-5 lg:px-0 md:px-0">Get the Grep app fo your mobile devices</h2>
-					<p>Download the Grep app today and let us run those errands for you with in no time. It's free!</p>
-					<button>Download for Android</button>
-					<button>Download for iOS</button>
+				<div className="mt-10 py-auto pr-40">
+					<h2 className="text-white text-center lg:text-left text-5xl capitalize pb-5 md:pb-10 font-semibold px-5 lg:px-0 md:px-0">
+					Get the Grep app for your mobile devices</h2>
+					<p className="text-white md:text-left text-center text-lg md:text-xl lg:text-xl xl:text-xl mb-10">Download the Grep app today and let us run those errands for you with in no time. It's free!</p>
+					<button className="py-1 px-5 w-56 text-left bg-tickle-me-pink-600 rounded-full mr-5 text-white text-lg">
+						<img  className="w-10 pt-2 ml-2 mr-5 float-left " src={googleplay} /><span className="text-xl">Download</span> for Android
+					</button>
+					<button className="py-1 px-5 w-56 text-left bg-white rounded-full text-tickle-me-pink-600 text-lg">
+						<img className="w-10 ml-2 mr-5 pt-2 float-left" src={appstore} /><span className="mt-10"><span className="text-xl">Download</span> for iOS</span>
+					</button>
 				</div>
 			</div>
 
