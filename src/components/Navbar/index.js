@@ -16,10 +16,10 @@ const Navbar = () => {
 						lg:shadow-none
 						lg:justify-between
 		    		    lg:w-full">
-						<a className="mr-8 capitalize text-xl text-blue-900 hover:text-pink-500" href="/">home</a>
-						<a className="mr-8 capitalize text-xl text-blue-900 hover:text-pink-500" href="/about">about</a>
-						<a className="mr-8 capitalize text-xl text-blue-900 hover:text-pink-500" href="/download">download</a>
-						<a className="mr-8 capitalize text-xl text-blue-900 hover:text-pink-500" href="/contact">contact</a>
+						<a className="mr-8 capitalize text-xl text-blue-900 hover:text-kimberly-600" href="/">home</a>
+						<a className="mr-8 capitalize text-xl text-blue-900 hover:text-kimberly-600" href="/about">about</a>
+						<a className="mr-8 capitalize text-xl text-blue-900 hover:text-kimberly-600" href="/download">download</a>
+						<a className="mr-8 capitalize text-xl text-blue-900 hover:text-kimberly-600" href="/contact">contact</a>
 					</div>
 					<button id="menu" className="
 				        lg:hidden

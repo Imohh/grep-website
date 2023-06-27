@@ -4,10 +4,14 @@ module.exports = {
     "/index.html",
     "./src/**/*.{html,js}"
   ],
-  // theme: {
-  //   extend: {},
-  // },
   theme: {
+    extend: {
+      colors: {
+        'port-gore-600': '#241c45',
+        'tickle-me-pink-600': '#db5a7f',
+        'kimberly-600': '#676099',
+      },
+    },
     screens: {
       'xs': '300px',
       
