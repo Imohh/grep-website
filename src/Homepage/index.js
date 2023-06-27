@@ -133,46 +133,47 @@ const Homepage = () => {
 
 			{/*FORTH SECTION*/}
 			<div className="py-40">
-				<h2 className="text-center text-3xl lg:text-5xl xl:text-5xl text-port-gore-600 capitalize pb-5 md:pb-10 font-semibold px-5 lg:px-0 md:px-0">why grep errands</h2>
-				<p className="text-center text-base sm:text-xl text-port-gore-600 px-5 lg:px-0 md:px-0">Here are some of the reasons why you should use Grep Errands.</p>
+				<h2 className="wow zoomIn text-center text-3xl lg:text-5xl xl:text-5xl 
+				text-port-gore-600 capitalize pb-5 md:pb-10 font-semibold px-5 lg:px-0 md:px-0">why grep errands</h2>
+				<p className="wow zoomIn text-center text-base sm:text-xl text-port-gore-600 px-5 lg:px-0 md:px-0">Here are some of the reasons why you should use Grep Errands.</p>
 				<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 mt-20 px-10 lg:px-20 md:px-20 sm:px-20">
 					<div className="text-center mb-20 text-port-gore-600">
 						<img className="mx-auto" src={corn} alt="corn" />
-						<h3 className="capitalize text-xl sm:text-2xl py-5 font-semibold">Affordability</h3>
-						<p className="text-xl w-full lg:w-11/12 mx-auto">With just N200 you can run errands with ease. We also give free errand after every 5 referral on our app.</p>
+						<h3 className="wow zoomIncapitalize text-xl sm:text-2xl py-5 font-semibold">Affordability</h3>
+						<p className="wow zoomIn text-xl w-full lg:w-11/12 mx-auto">With just N200 you can run errands with ease. We also give free errand after every 5 referral on our app.</p>
 					</div>
 					<div className="text-center mb-20 text-port-gore-600">
 						<img className="mx-auto" src={store} alt="corn" />
-						<h3 className="capitalize text-xl sm:text-2xl py-5 font-semibold">you can trust us</h3>
-						<p className="text-lg w-full lg:w-11/12 mx-auto">We hire trusted errand persons to run these errands, we know how important trust is when it comes to business.</p>
+						<h3 className="wow zoomIn capitalize text-xl sm:text-2xl py-5 font-semibold">you can trust us</h3>
+						<p className="wow zoomIn text-lg w-full lg:w-11/12 mx-auto">We hire trusted errand persons to run these errands, we know how important trust is when it comes to business.</p>
 					</div>
 					<div className="text-center mb-20 text-port-gore-600">
 						<img className="mx-auto" src={groceries} alt="corn" />
-						<h3 className="capitalize text-xl sm:text-2xl py-5 font-semibold">efficient</h3>
-						<p className="text-lg w-full lg:w-11/12 mx-auto">We make sure our customer's satisfaction is our goal. With that you can be rest assured that we will always deliver.</p>
+						<h3 className="wow zoomIn capitalize text-xl sm:text-2xl py-5 font-semibold">efficient</h3>
+						<p className="wow zoomIn text-lg w-full lg:w-11/12 mx-auto">We make sure our customer's satisfaction is our goal. With that you can be rest assured that we will always deliver.</p>
 					</div>
 					<div className="text-center mb-20 text-port-gore-600">
 						<img className="mx-auto" src={notification} alt="corn" />
-						<h3 className="capitalize text-xl sm:text-2xl py-5 font-semibold">easy to use</h3>
-						<p className="text-lg w-full lg:w-11/12 mx-auto">Our app is very straightforward to use, Once our users fill out the form an errand person is ready to attend to the order</p>
+						<h3 className="wow zoomIn capitalize text-xl sm:text-2xl py-5 font-semibold">easy to use</h3>
+						<p className="wow zoomIn text-lg w-full lg:w-11/12 mx-auto">Our app is very straightforward to use, Once our users fill out the form an errand person is ready to attend to the order</p>
 					</div>
 					<div className="text-center mb-20 text-port-gore-600">
 						<img className="mx-auto" src={deliverytruck} alt="corn" />
-						<h3 className="capitalize text-xl sm:text-2xl py-5 font-semibold">24/7 support service</h3>
-						<p className="text-lg w-full lg:w-11/12 mx-auto">We are always eager to get feedback from our users, Our helpline is active and ready to attend to you.</p>
+						<h3 className="wow zoomIncapitalize text-xl sm:text-2xl py-5 font-semibold">24/7 support service</h3>
+						<p className="wow zoomIn text-lg w-full lg:w-11/12 mx-auto">We are always eager to get feedback from our users, Our helpline is active and ready to attend to you.</p>
 					</div>
 					<div className="text-center mb-20 text-port-gore-600">
 						<img className="mx-auto"src={grapefruit} alt="corn" />
-						<h3 className="capitalize text-xl sm:text-2xl py-5 font-semibold">customer orders</h3>
-						<p className="text-lg w-full lg:w-11/12 mx-auto">I zonked argy-bargy pear shaped gutted mate say cheesed off pukka tickety boo fantastic.</p>
+						<h3 className="wow zoomIn capitalize text-xl sm:text-2xl py-5 font-semibold">customer orders</h3>
+						<p className="wow zoomIn text-lg w-full lg:w-11/12 mx-auto">I zonked argy-bargy pear shaped gutted mate say cheesed off pukka tickety boo fantastic.</p>
 					</div>
 				</div>
 			</div>
 
 			{/*FIFTH SECTION*/}
-			<div className="grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-4 px-10 pb-44 lg:px-10 xl:px-40 mx-auto">
+			<div className="grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-4 px-10 pt-20 pb-64 lg:px-10 xl:px-40 mx-auto">
 				<div className="">
-					<div className="
+					<div className="wow zoomIn
 					w-1/2 h-1/2 sm:w-1/3 sm:h-1/3 md:w-1/4 md:h-1/4 xl:w-1/6 xl:h-1/6 bg-kimberly-600 rounded-full aspect-w-1 aspect-h-1
 					p-36 lg:p-72 relative mx-auto">
 						<div className="bg-red-500 mr-40 rounded-full">
@@ -186,27 +187,14 @@ const Homepage = () => {
 					</div>
 				</div>
 				<div className="my-auto ml-0 lg:ml-20">
-					<h2 className="
+					<h2 className="wow fadeInRight
 					mt-28 md:mt-0 capitalize pb-5 md:pb-10 
 					px-5 lg:px-0 md:px-0
 					lg:text-5xl md:text-3xl text-2xl
 					md:text-left lg:text-left text-center font-semibold text-port-gore-600">We are ready to attend to your orders</h2>
-					<p className="text-port-gore-600 md:text-left text-center text-lg md:text-xl mb-10">Our errand persons are always happy to receive your orders. 
+					<p className="wow fadeInRight text-port-gore-600 md:text-left text-center text-lg md:text-xl mb-10">Our errand persons are always happy to receive your orders. 
 					You can set reminders and we will be sure to remind you at all times. It's easy and straight forward.</p>
-					<button className="">get started</button>
-				</div>
-			</div>
-
-			{/*SIXTH SECTION*/}
-			<div className="grid grid-cols-2">
-				<div>
-					<h2>Join our small community today and start using the Grep app right away!</h2>
-					<p>Say goodbye to stress, we are ready to be at your service at all times. 
-					We are that junior brother or sister that goes on errands happily! Download the app and see for yourself.</p>
-					<button>learn more</button>
-				</div>
-				<div>
-
+					<button className="wow fadeInRight">get started</button>
 				</div>
 			</div>
 		</>
