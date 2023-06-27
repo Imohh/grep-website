@@ -26,10 +26,10 @@ const Homepage = () => {
 			{/*HERO SECTION*/}
 			<div className="grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 px-5 pb-18 sm:pb-18 md:pb-18 xl:pb-44 lg:pb-44 lg:px-10 xl:px-44 mx-auto">
 				<div className="mt-10 md:mt-20 lg:mt-44 lg:mx-auto">
-					<h1 className="text-xl lg:text-2xl text-tickle-me-pink-600 mb-5">Know the status of your order</h1>
-					<h1 className="text-4xl lg:text-6xl font-semibold mb-6 text-port-gore-600">Track your order</h1>
-					<p className="text-port-gore-600 mb-14 text-xl lg:text-2xl">Kndly fill in your order ID</p>
-					<form className="flex items-center">
+					<h1 className="wow fadeInUp text-xl lg:text-2xl text-tickle-me-pink-600 mb-5">Know the status of your order</h1>
+					<h1 className="wow fadeInUp text-4xl lg:text-6xl font-semibold mb-6 text-port-gore-600">Track your order</h1>
+					<p className="wow fadeInUp text-port-gore-600 mb-14 text-xl lg:text-2xl">Kndly fill in your order ID</p>
+					<form className="wow fadeInUp flex items-center">
 					  <input
 					    type="text"
 					    placeholder="Order ID"
@@ -39,20 +39,21 @@ const Homepage = () => {
 					</form>
 				</div>
 				<div className="mt-20 sm:mt-20 md:mt-0 lg:mt-36 w-full">
-					<div className="bg-kimberly-600  mr-20 h-20 w-20 relative rounded-full"></div>
-					<div className="bg-tickle-me-pink-600 xl:float-right ml-20 h-4 w-4 relative rounded-full"></div>
+					<div className="wow zoomIn bg-kimberly-600  mr-20 h-20 w-20 relative rounded-full"></div>
+					<div className="wow fadeInDown bg-tickle-me-pink-600 xl:float-right ml-20 h-4 w-4 relative rounded-full"></div>
 					<div className="
-					w-1/2 h-1/2 sm:w-1/3 sm:h-1/3 xl:w-1/4 xl:h-1/4 
-					bg-yellow-500 rounded-full aspect-w-1 aspect-h-1
-					p-36 lg:p-64 xl:p-80 relative mx-auto">
+						wow zoomIn
+						w-1/2 h-1/2 sm:w-1/3 sm:h-1/3 xl:w-1/4 xl:h-1/4 
+						bg-yellow-500 rounded-full aspect-w-1 aspect-h-1
+						p-36 lg:p-64 xl:p-80 relative mx-auto">
 						<img className="
 							mt-0 h-auto h-fit md:h-max xl:h-max 
-							absolute top-1/2 right-0 xl:-right-4 lg:-right--8 
+							absolute top-1/2 right-0 xl:right-1 lg:-right--8 
 							transform -translate-y-1/2"
    							src={mockup} alt="grep mockup" 
    						/>
 					</div>
-					<div className="bg-tickle-me-pink-600 relative float-right ml-20 h-8 w-8 rounded-full"></div>
+					<div className="wow fadeInDown bg-tickle-me-pink-600 relative float-right ml-20 h-8 w-8 rounded-full"></div>
 					
 				</div>
 			</div>
@@ -60,51 +61,46 @@ const Homepage = () => {
 			{/*SECOND SECCTION*/}
 			<div className="grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-4 py-40 px-10 pb-44 lg:px-10 xl:px-40 mx-auto">
 				<div className="pl-0 2xl:pl-44 xl:mt-10">
-					<h2 className="text-port-gore-600 text-center md:text-left lg:text-left text-3xl lg:text-5xl xl:text-5xl capitalize pb-5 md:pb-10 font-semibold px-5 lg:px-0 md:px-0">what the grep app does</h2>
-					<p className="leading-10 text-port-gore-600 w-full xl:w-10/12 md:text-left lg:text-left text-center text-base lg:text-lg xl:text-lg md:text-xl mb-10">
+					<h2 className="wow fadeInUp
+					text-port-gore-600 text-center md:text-left lg:text-left text-3xl 
+					lg:text-5xl xl:text-5xl capitalize pb-5 md:pb-10 font-semibold px-5 lg:px-0 md:px-0">what the grep app does</h2>
+					<p className="wow fadeInUp leading-10 text-port-gore-600 w-full xl:w-10/12 md:text-left lg:text-left text-center text-base lg:text-lg xl:text-lg md:text-xl mb-10">
 					We are making you worry less about errands. School can be really stressful, let's help relive some stress 
 					by taking care of your errands from food, returning items to friends and many more for just N200.</p>
-					<button>about us</button>
+					<button className="wow fadeInUp">about us</button>
 				</div>
 
 
 				<div className="flex sm:mt-10">
-				  {/*<img
-				    className="float-left mt-10 sm:mt-44 xl:mt-56 lg:mt-44 md:mt-40 
-				     w-18 sm:w-10 md:w-18 lg:w-28 xl:w-28 2xl:w-1/2 h-auto md:h-fit lg:h-fit h-screen top-1/2 left-0 xl:left-18 lg:left-12"
-				    src={grafeman1}
-				    alt="grafe man"
-				  />*/}
 				  <img
-				    className="float-left w-16 sm:w-28 md:w-24 lg:w-28 h-28 mt-20 lg:mt-40 md:mt-28 sm:mt-40"
+				    className="wow fadeInUp float-left w-16 sm:w-28 md:w-24 lg:w-1/3 lg:h-1/3 xl:w-44 h-44 mt-20 lg:mt-52 md:mt-28 sm:mt-40"
+				    data-wow-delay="0.5s"
 				    src={grafeman1}
 				    alt="grafe man"
 				  />
 				  <div className="h-fit">
 				    <img
-				      className="shadow-lg w-full lg:w-full h-fit h-auto mb-5"
+				      className="wow fadeInLeft shadow-lg w-full lg:w-full h-fit h-auto mb-5"
+				      data-wow-delay="0.5s"
 				      src={firstsection}
 				      alt="first icon"
 				    />
 				    <img
-				      className="shadow-lg w-full h-auto mb-5"
+				      className="wow fadeInRight shadow-lg w-full h-auto mb-5"
+				      data-wow-delay="0.5s"
 				      src={secondsection}
 				      alt="second icon"
 				    />
 				    <img
-				      className="shadow-lg w-full h-auto"
+				      className="wow fadeInLeft shadow-lg w-full h-auto"
+				      data-wow-delay="0.5s"
 				      src={thirdsection}
 				      alt="third icon"
 				    />
 				  </div>
-				  {/*<img
-				    className="xl:mt-18 lg:mt-10 w-20 sm:w-28 md:w-18 w-18
-				    lg:w-28 xl:w-28 2xl:w-11/12 h-auto md:h-fit lg:h-fit h-screen left-0 xl:left-1 lg:left-1"
-				    src={grafeman2}
-				    alt="grafe man"
-				  />*/}
 				  <img
-				    className="w-56 float-right h-28 lg:mt-40 md:mt-20 sm:mt-40 mt-20"
+				    className="wow fadeInUp w-56 lg:w-1/2 lg:h-1/2 float-right h-28 lg:mt-28 md:mt-20 sm:mt-40 mt-20"
+				    data-wow-delay="0.5s"
 				    src={grafeman2}
 				    alt="grafe man"
 				  />
@@ -113,23 +109,25 @@ const Homepage = () => {
 
 			{/*THIRD SECTION*/}
 			<div className="overflow-hidden h-screen grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-4 
-				lg:py-40 px-10 lg:pb-44 lg:px-10 xl:px-40 mx-auto
+				lg:py-40 px-10 lg:pb-44 xl:px-40 mx-auto
 				bg-gradient-to-r from-yellow-200 to-tickle-me-pink-600">
-				<div className="-mt-20 -ml-20 lg:-mt-80 lg:-ml-80">
+				<div className="-mt-20 -ml-20 lg:-mt-72 lg:-ml-96">
 					<img className=" -mt-96 -ml-52" src={ge6} alt="mockup" />
 					<img className="object-contain -mt-96" src={ge4} alt="mockup" />
 					<img className="object-contain -mt-96 ml-96" src={ge3} alt="mockup" />
 				</div>
-				<div className="mt-0 py-0 lg:mt-10 lg:py-auto pr-0 lg:pr-40 ">
+				<div className="mt-0 py-0 lg:mt-10 lg:py-auto pr-0 lg:pr-28 ">
 					<h2 className="text-white text-center lg:text-left text-3xl lg:text-5xl capitalize pb-5 md:pb-10 font-semibold px-5 lg:px-0 md:px-0">
 					Get the Grep app for your mobile devices</h2>
 					<p className="text-white md:text-left text-center text-lg md:text-xl lg:text-xl xl:text-xl mb-10">Download the Grep app today and let us run those errands for you with in no time. It's free!</p>
-					<button className="mb-5 lg:mb-0 xl:mb-0 w-11/12 py-1 px-5 xl:w-56 text-left bg-tickle-me-pink-600 rounded-full mr-5 text-white text-lg">
-						<img  className="w-10 pt-2 ml-2 mr-5 float-left " src={googleplay} /><span className="text-xl">Download</span> for Android
-					</button>
-					<button className="w-11/12 py-1 px-5 xl:w-56 text-left bg-white rounded-full text-tickle-me-pink-600 text-lg">
-						<img className="w-10 ml-2 mr-5 pt-2 float-left" src={appstore} /><span className="mt-10"><span className="text-xl">Download</span> for iOS</span>
-					</button>
+					<div>
+						<button className="mb-5 lg:mb-0 xl:mb-0 w-11/12 py-1 px-5 xl:w-56 text-left bg-tickle-me-pink-600 rounded-full mr-5 text-white text-lg">
+							<img  className="w-10 pt-2 ml-2 mr-5 float-left " src={googleplay} /><span className="text-xl">Download</span> for Android
+						</button>
+						<button className="w-11/12 py-1 px-5 xl:w-56 text-left bg-white rounded-full text-tickle-me-pink-600 text-lg">
+							<img className="w-10 ml-2 mr-5 pt-2 float-left" src={appstore} /><span className="mt-10"><span className="text-xl">Download</span> for iOS</span>
+						</button>
+					</div>
 				</div>
 			</div>
 
