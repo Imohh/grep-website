@@ -59,8 +59,8 @@ const Homepage = () => {
 			{/*SECOND SECCTION*/}
 			<div className="grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-4 py-40 px-10 pb-44 lg:px-10 xl:px-40 mx-auto">
 				<div className="pl-0 2xl:pl-44 xl:mt-10">
-					<h2 className="text-port-gore-600 text-center lg:text-left text-5xl capitalize pb-5 md:pb-10 font-semibold px-5 lg:px-0 md:px-0">what the grep app does</h2>
-					<p className="leading-10 text-port-gore-600 w-full xl:w-10/12 w-full md:text-left text-center text-lg md:text-xl mb-10">
+					<h2 className="text-port-gore-600 text-center md:text-left lg:text-left text-3xl lg:text-5xl xl:text-5xl capitalize pb-5 md:pb-10 font-semibold px-5 lg:px-0 md:px-0">what the grep app does</h2>
+					<p className="leading-10 text-port-gore-600 w-full xl:w-10/12 md:text-left lg:text-left text-center text-base lg:text-lg xl:text-lg md:text-xl mb-10">
 					We are making you worry less about errands. School can be really stressful, let's help relive some stress 
 					by taking care of your errands from food, returning items to friends and many more for just N200.</p>
 					<button>about us</button>
@@ -68,30 +68,42 @@ const Homepage = () => {
 
 
 				<div className="flex sm:mt-10">
+				  {/*<img
+				    className="float-left mt-10 sm:mt-44 xl:mt-56 lg:mt-44 md:mt-40 
+				     w-18 sm:w-10 md:w-18 lg:w-28 xl:w-28 2xl:w-1/2 h-auto md:h-fit lg:h-fit h-screen top-1/2 left-0 xl:left-18 lg:left-12"
+				    src={grafeman1}
+				    alt="grafe man"
+				  />*/}
 				  <img
-				    className="float-left mt-10 sm:mt-44 xl:mt-56 lg:mt-44 md:mt-40 w-20 w-20 sm:w-28 md:w-20 lg:w-28 xl:w-28 2xl:w-1/2 h-auto lg:h-fit h-screen top-1/2 left-0 xl:left-18 lg:left-12"
+				    className="float-left w-16 sm:w-28 md:w-24 lg:w-28 h-28 mt-20 lg:mt-40 md:mt-28 sm:mt-40"
 				    src={grafeman1}
 				    alt="grafe man"
 				  />
-				  <div className="">
+				  <div className="h-fit">
 				    <img
-				      className="shadow-lg w-full lg:w-full xl:w-full h-auto lg:h-fit h-screen top-1/2 left-0 xl:left-18 lg:left-12 mb-5"
+				      className="shadow-lg w-full lg:w-full h-fit h-auto mb-5"
 				      src={firstsection}
 				      alt="first icon"
 				    />
 				    <img
-				      className="shadow-lg lg:w-full xl:w-full h-auto lg:h-fit h-screen top-1/2 left-0 xl:left-18 lg:left-12 mb-5"
+				      className="shadow-lg w-full h-auto mb-5"
 				      src={secondsection}
 				      alt="second icon"
 				    />
 				    <img
-				      className="shadow-lg lg:w-full xl:w-full h-auto lg:h-fit h-screen top-1/2 left-0 xl:left-18 lg:left-12"
+				      className="shadow-lg w-full h-auto"
 				      src={thirdsection}
 				      alt="third icon"
 				    />
 				  </div>
+				  {/*<img
+				    className="xl:mt-18 lg:mt-10 w-20 sm:w-28 md:w-18 w-18
+				    lg:w-28 xl:w-28 2xl:w-11/12 h-auto md:h-fit lg:h-fit h-screen left-0 xl:left-1 lg:left-1"
+				    src={grafeman2}
+				    alt="grafe man"
+				  />*/}
 				  <img
-				    className="xl:mt-18 lg:mt-10 w-20 sm:w-28 md:w-20 lg:w-28 xl:w-28 2xl:w-11/12 h-auto lg:h-fit h-screen left-0 xl:left-1 lg:left-1"
+				    className="w-56 float-right h-28 lg:mt-40 md:mt-20 sm:mt-40 mt-20"
 				    src={grafeman2}
 				    alt="grafe man"
 				  />
@@ -111,10 +123,10 @@ const Homepage = () => {
 					<h2 className="text-white text-center lg:text-left text-5xl capitalize pb-5 md:pb-10 font-semibold px-5 lg:px-0 md:px-0">
 					Get the Grep app for your mobile devices</h2>
 					<p className="text-white md:text-left text-center text-lg md:text-xl lg:text-xl xl:text-xl mb-10">Download the Grep app today and let us run those errands for you with in no time. It's free!</p>
-					<button className="py-1 px-5 w-56 text-left bg-tickle-me-pink-600 rounded-full mr-5 text-white text-lg">
+					<button className="py-1 px-5 xl:w-56 text-left bg-tickle-me-pink-600 rounded-full mr-5 text-white text-lg">
 						<img  className="w-10 pt-2 ml-2 mr-5 float-left " src={googleplay} /><span className="text-xl">Download</span> for Android
 					</button>
-					<button className="py-1 px-5 w-56 text-left bg-white rounded-full text-tickle-me-pink-600 text-lg">
+					<button className="py-1 px-5 xl:w-56 text-left bg-white rounded-full text-tickle-me-pink-600 text-lg">
 						<img className="w-10 ml-2 mr-5 pt-2 float-left" src={appstore} /><span className="mt-10"><span className="text-xl">Download</span> for iOS</span>
 					</button>
 				</div>
@@ -166,7 +178,7 @@ const Homepage = () => {
 					p-36 lg:p-72 relative mx-auto">
 						<div className="bg-red-500 mr-40 rounded-full">
 							<img className="
-								lg:w-2/3 xl:w-10/12 h-auto lg:h-fit h-screen 
+								lg:w-2/3 xl:w-10/12 h-auto h-fit lg:h-fit 
 								absolute top-1/2 left-0 xl:left-18 lg:left-12 
 								transform -translate-y-1/2"
    								src={ge7} alt="grep mockup" 
