@@ -8,12 +8,13 @@ const Navbar = () => {
 	    setShow(!show);
 	};
 
+
 	return (
 		<>
 			<div className="py-5 lg:py-10">
 				<div className="grid grid-cols-2 lg:grid-cols-3 w-full lg:w-full xl:w-2/3 lg:px-10 mx-auto">
 					<div className="pl-4 lg:pl-0 xl:pl-0 md:pl-4">
-						<img className="xs:w-24 sm:w-24 md:w-24 lg:w-28" src={logo} alt="Grep Logo" />
+						<a href="/"><img className="xs:w-24 sm:w-24 md:w-24 lg:w-28" src={logo} alt="Grep Logo" /></a>
 					</div>
 					<div className="
 						hidden 
@@ -55,10 +56,10 @@ const Navbar = () => {
 					    </button>
 				    </div>
 					<div className="hidden flex justify-end text-right lg:grid">
-						<button className="capitalize w-full text-white text-xl py-3 px-10 bg-tickle-me-pink-600 rounded-md shadow-xl
+						<a href="/login" className="capitalize w-full text-white text-xl py-3 px-10 bg-tickle-me-pink-600 rounded-md shadow-xl
 							hover:shadow-none transition">
 							get started
-						</button>
+						</a>
 					</div>
 				</div>
 				{show && 
