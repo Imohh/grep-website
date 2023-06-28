@@ -18,7 +18,7 @@ const Login = () => {
 								<label className="xl:text-xl lg:text-xl text-base mb-4 capitalize">email*</label>
 								<input 
 									className="w-full py-2 px-5 md:px-5 md:py-2 xl:py-3 xl:px-5 border border-tickle-me-pink-600 rounded-md focus:border-tickle-me-pink-600 focus:border-lg"
-									type="text" placeholder="Enter your name" />
+									type="text" placeholder="Enter your email" />
 							</div>
 							<div className="mb-10">
 								<label className="xl:text-xl lg:text-xl text-base mb-4 capitalize">password*</label>
@@ -32,6 +32,11 @@ const Login = () => {
 									py-2 px-5 md:px-5 md:py-2 xl:py-3 xl:px-10 text-white capitalize text-base lg:text-xl xl:text-xl border border-tickle-me-pink-600 bg-tickle-me-pink-600 rounded-md shadow-xl
 									hover:shadow-none hover:border-tickle-me-pink-600 hover:bg-white hover:text-tickle-me-pink-600 transition
 								">login</button>
+							</div>
+							<div className="mt-10 text-center">
+								<p className="text-lg">Don't have an account? 
+									<a className="underline text-kimberly-600 font-semibold capitalize" href="/sign-up">sign up</a>
+								</p>
 							</div>
 						</form>
 					</div>
