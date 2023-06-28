@@ -4,6 +4,7 @@ import {WOW} from 'wowjs';
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Homepage from './Homepage'
+import Download from './Download'
 import Login from './Login'
 import Register from './Register'
 
@@ -27,6 +28,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route  path='/' element={<Homepage />} />
+            <Route  path='/download' element={<Download />} />
             <Route  path='/login' element={<Login />} />
             <Route  path='/sign-up' element={<Register />} />
           </Routes>
