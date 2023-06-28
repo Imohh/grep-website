@@ -48,14 +48,16 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-36 border-t border-gray-400 pb-14 
-					px-0 
+					px-0
 					w-10/12 sm:w-10/12 md:w-10/12 lg:w-11/12 xl:w-11/12  
 					mx-auto">
-					<div className="pt-5">
+					<div className="pt-5 flex justify-center md:justify-start lg:justify-start xl:justify-start">
 						<p className="text-white text-base lg:text-lg text-gray-500">© 2021 Grep. All rights reserved</p>
 					</div>
-					<div>
-
+					<div className="flex justify-center mt-5 xl:justify-end lg:justify-end md:justify-end">
+						<a className="p-3 border border-white rounded-full mr-3 hover:bg-tickle-me-pink-600 transition" href="https://facebook.com"><img src="https://img.icons8.com/android/24/ffffff/facebook-new.png"/></a>
+						<a className="p-3 border border-white rounded-full mr-3 hover:bg-tickle-me-pink-600 transition" href="https://twitter.com/"><img src="https://img.icons8.com/android/24/ffffff/twitter.png"/></a>
+						<a className="p-3 border border-white rounded-full mr-3 hover:bg-tickle-me-pink-600 transition" href="https://instagram.com/grepng"><img src="https://img.icons8.com/material-outlined/24/ffffff/instagram-new--v1.png"/></a>
 					</div>
 				</div>
 
