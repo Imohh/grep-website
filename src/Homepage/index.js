@@ -59,7 +59,7 @@ const Homepage = () => {
 			</div>
 
 			{/*SECOND SECCTION*/}
-			<div className="grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-4 py-40 px-10 pb-44 lg:px-10 xl:px-40 mx-auto">
+			<div className="grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-4 py-40 lg:py-20 lg:pb-0 px-10 pb-44 lg:px-10 xl:px-40 mx-auto">
 				<div className="pl-0 2xl:pl-44 xl:mt-10">
 					<h2 className="wow fadeInUp
 					text-port-gore-600 text-center md:text-left lg:text-left text-3xl 
@@ -108,24 +108,33 @@ const Homepage = () => {
 			</div>
 
 			{/*THIRD SECTION*/}
-			<div className="overflow-hidden h-screen grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-4 
-				lg:py-40 px-10 lg:pb-44 xl:px-40 mx-auto
+			<div className="overflow-hidden lg:h-96 md:h-fit 
+			grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-4 
+				md:py-20 px-10 lg:py-40 lg:pb-96 xl:px-40 mx-auto
 				bg-gradient-to-r from-yellow-200 to-tickle-me-pink-600">
-				<div className="-mt-20 -ml-20 lg:-mt-72 lg:-ml-96">
-					<img className=" -mt-96 -ml-52" src={ge6} alt="mockup" />
-					<img className="object-contain -mt-96" src={ge4} alt="mockup" />
-					<img className="object-contain -mt-96 ml-96" src={ge3} alt="mockup" />
+				<div className="-mt-20 -ml-20 md:-mt-60 md:ml-20 lg:-mt-72 lg:-ml-96">
+					<img className=" lg:-mt-72 lg:-ml-20 xl:-mt-96 xl:-ml-52" src={ge6} alt="mockup" />
+					<img className=" lg:ml-24 lg:-mt-80 xl:-mt-96" src={ge4} alt="mockup" />
+					<img className=" lg:-mt-96 lg:ml-96 xl:-mt-96 xl:ml-96" src={ge3} alt="mockup" />
 				</div>
-				<div className="mt-0 py-0 lg:mt-10 lg:py-auto pr-0 lg:pr-28 ">
-					<h2 className="text-white text-center lg:text-left text-3xl lg:text-5xl capitalize pb-5 md:pb-10 font-semibold px-5 lg:px-0 md:px-0">
+				<div className=" mt-0 py-0 lg:py-auto pr-0 lg:pr-18 ">
+					<h2 className="
+						text-white text-center md:text-left lg:text-left text-3xl 
+						lg:text-5xl capitalize pb-5 md:pb-10 font-semibold px-5 lg:px-0 md:px-0">
 					Get the Grep app for your mobile devices</h2>
 					<p className="text-white md:text-left text-center text-lg md:text-xl lg:text-xl xl:text-xl mb-10">Download the Grep app today and let us run those errands for you with in no time. It's free!</p>
 					<div>
-						<button className="mb-5 lg:mb-0 xl:mb-0 w-11/12 py-1 px-5 xl:w-56 text-left bg-tickle-me-pink-600 rounded-full mr-5 text-white text-lg">
-							<img  className="w-10 pt-2 ml-2 mr-5 float-left " src={googleplay} /><span className="text-xl">Download</span> for Android
+						<button className="mb-5 lg:mb-0 xl:mb-0 w-full py-1 px-5 lg:w-52 xl:w-56 text-left bg-tickle-me-pink-600 rounded-full mr-5 text-white text-lg">
+							<div className="flex justify-center items-center">
+								<img  className="w-10 pt-2 ml-2 mr-5 float-left " src={googleplay} />
+								<span className=""><span className="text-xl">Download</span> for Android</span>
+							</div>
 						</button>
-						<button className="w-11/12 py-1 px-5 xl:w-56 text-left bg-white rounded-full text-tickle-me-pink-600 text-lg">
-							<img className="w-10 ml-2 mr-5 pt-2 float-left" src={appstore} /><span className="mt-10"><span className="text-xl">Download</span> for iOS</span>
+						<button className="w-full text-center py-1 px-5 lg:w-52 xl:w-56 text-left bg-white rounded-full text-tickle-me-pink-600 text-lg">
+							<div className="flex justify-center items-center">
+								<img className=" w-10 ml-2 mr-5 pt-2 float-left" src={appstore} />
+								<span className=""><span className="text-xl">Download</span> for iOS</span>
+							</div>
 						</button>
 					</div>
 				</div>

@@ -59,7 +59,8 @@ const Navbar = () => {
 					</div>
 				</div>
 				{show && 
-					<div className="lg:hidden shadow-lg" id="mobile-menu">
+					<div className="transition delay-150 duration-300 ease-in-out
+					lg:hidden shadow-lg" id="mobile-menu">
 						<div className="px-2 pt-2 pb-3 space-y-1">
 					      <a href="/" className="text-black block px-3 py-2 rounded-md text-base font-medium capitalize">home</a>
 					      <a href="/about" className="text-black block px-3 py-2 rounded-md text-base font-medium capitalize">about</a>
