@@ -3,10 +3,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import {WOW} from 'wowjs';
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import Homepage from './Homepage'
-import Download from './Download'
-import Login from './Login'
-import Register from './Register'
+import Homepage from './pages/Homepage'
+import Download from './pages/Download'
+import Login from './pages/Login'
+import Register from './pages/Register'
 
 function App() {
   useEffect(() => {

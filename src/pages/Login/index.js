@@ -1,4 +1,4 @@
-import mockup from '../images/homepage/navigation-drawer.png'
+import mockup from '../../images/homepage/navigation-drawer.png'
 
 const Login = () => {
 	return (

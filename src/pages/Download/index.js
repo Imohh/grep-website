@@ -1,8 +1,8 @@
-import ge3 from '../images/homepage/ge3.png'
-import ge4 from '../images/homepage/ge4.png'
-import ge6 from '../images/homepage/ge6.png'
-import googleplay from '../images/homepage/googleplay.png'
-import appstore from '../images/homepage/applestore.png'
+import ge3 from '../../images/homepage/ge3.png'
+import ge4 from '../../images/homepage/ge4.png'
+import ge6 from '../../images/homepage/ge6.png'
+import googleplay from '../../images/homepage/googleplay.png'
+import appstore from '../../images/homepage/applestore.png'
 
 const Download = () => {
 	return (
