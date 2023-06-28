@@ -1,6 +1,22 @@
+import { useState } from 'react'
 import mockup from '../../images/homepage/navigation-drawer.png'
 
 const Login = () => {
+
+	const [email, setEmail] = useState("")
+	const [password, setPassword] = useState("")
+
+	const [showPassword, setShowPassword] = useState(false);
+
+	const handleTogglePassword = () => {
+	    setShowPassword(!showPassword);
+	};
+
+	const handleChange = (event) => {
+	    setPassword(event.target.value);
+	};
+	
+
 	return (
 		<>
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
@@ -13,18 +29,33 @@ const Login = () => {
 							<h3 className="pb-2 text-kimberly-600 text-center capitalize font-bold text-3xl md:text-4xl lg:text-5xl xl:text-6xl">hello again!</h3>
 							<p className="text-center text-base lg:text-xl xl:text-xl text-gray-400">Sign in to continue</p>
 						</div>
-						<form className="">
+						<form action="POST" className="">
 							<div className="mb-5">
 								<label className="xl:text-xl lg:text-xl text-base mb-4 capitalize">email*</label>
 								<input 
+									onChange={(e) => {setEmail(e.target.value)}}
 									className="w-full py-2 px-5 md:px-5 md:py-2 xl:py-3 xl:px-5 border border-tickle-me-pink-600 rounded-md focus:border-tickle-me-pink-600 focus:border-lg"
-									type="text" placeholder="Enter your email" />
+									type="email" placeholder="Enter your email" />
 							</div>
 							<div className="mb-10">
 								<label className="xl:text-xl lg:text-xl text-base mb-4 capitalize">password*</label>
-								<input 
-									className="w-full py-2 px-5 md:px-5 md:py-2 xl:py-3 xl:px-5 border border-tickle-me-pink-600 rounded-md"
-									type="text" placeholder="Enter your password" />
+								<div className="relative">
+									<input 
+										onChange={handleChange}
+										className="w-full py-2 px-5 md:px-5 md:py-2 xl:py-3 xl:px-5 border border-tickle-me-pink-600 rounded-md"
+										type={showPassword ? 'text' : 'password'} placeholder="Enter your password" />
+									<img 
+				                      onClick={handleTogglePassword}
+				                      id="showText"
+				                      className="cursor-pointer absolute right-3 top-3"
+				                      src={
+				                          showPassword ? 
+				                          'https://img.icons8.com/material-rounded/24/hide.png' 
+				                          : 
+				                          'https://img.icons8.com/ios-glyphs/24/visible--v1.png'
+				                      }
+				                    />
+			                    </div>
 							</div>
 							<div>
 								<button className="
