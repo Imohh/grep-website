@@ -11,7 +11,7 @@ const Navbar = () => {
 	return (
 		<>
 			<div className="py-5 lg:py-10">
-				<div className="grid grid-cols-2 lg:grid-cols-3 w-full lg:w-full lg:px-10 mx-auto">
+				<div className="grid grid-cols-2 lg:grid-cols-3 w-full lg:w-full xl:w-2/3 lg:px-10 mx-auto">
 					<div className="pl-4 lg:pl-0 xl:pl-0 md:pl-4">
 						<img className="xs:w-24 sm:w-24 md:w-24 lg:w-28" src={logo} alt="Grep Logo" />
 					</div>
