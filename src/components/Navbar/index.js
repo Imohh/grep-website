@@ -54,8 +54,11 @@ const Navbar = () => {
 					        </svg>
 					    </button>
 				    </div>
-					<div className="hidden text-right lg:grid">
-						button
+					<div className="hidden flex justify-end text-right lg:grid">
+						<button className="capitalize w-full text-white text-xl py-5 px-10 bg-tickle-me-pink-600 rounded-md shadow-xl
+							hover:shadow-none transition">
+							get started
+						</button>
 					</div>
 				</div>
 				{show && 
