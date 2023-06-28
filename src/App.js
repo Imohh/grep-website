@@ -4,6 +4,7 @@ import {WOW} from 'wowjs';
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Homepage from './Homepage'
+import Login from './Login'
 
 function App() {
   useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route  path='/' element={<Homepage />} />
+            <Route  path='/login' element={<Login />} />
           </Routes>
         </BrowserRouter>
         <Footer />
