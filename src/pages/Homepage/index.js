@@ -118,7 +118,7 @@ const Homepage = () => {
 				md:pb-40 md:pt-14 px-10 lg:py-40 lg:pb-96 xl:px-40 mx-auto
 				bg-gradient-to-r from-yellow-200 to-tickle-me-pink-600">
 				<div className="wow fadeInLeft -mt-20 -ml-20 md:-mt-60 md:ml-20 lg:-mt-72 lg:-ml-96">
-					<img className="wow fadeInLeft -mt-72 -ml-20 sm:-mt-72 sm:-ml-20 md:-mt-0 md:-ml-40 lg:-mt-72 lg:-ml-20 xl:-mt-96 xl:-ml-52" src={ge6} alt="mockup" />
+					<img className="wow fadeInDown -mt-72 -ml-20 sm:-mt-72 sm:-ml-20 md:-mt-0 md:-ml-40 lg:-mt-72 lg:-ml-20 xl:-mt-96 xl:-ml-52" src={ge6} alt="mockup" />
 					<img className="wow fadeInLeft -mt-72 ml-24 sm:-mt-72 sm:ml-24 md:-mt-36 md:-ml-20 lg:ml-24 lg:-mt-80 xl:-mt-96" src={ge4} alt="mockup" />
 					<img className="wow fadeInLeft -mt-72 ml-96 sm:-mt-72 sm:ml-96 md:-mt-52 md:ml-24 lg:-mt-96 lg:ml-96 xl:-mt-96 xl:ml-96" src={ge3} alt="mockup" />
 				</div>
@@ -209,8 +209,12 @@ const Homepage = () => {
 					<p className="wow fadeInRight text-port-gore-600 md:text-left text-center text-lg md:text-xl mb-10">Our errand persons are always happy to receive your orders. 
 					You can set reminders and we will be sure to remind you at all times. It's easy and straight forward.</p>
 					<div className="flex justify-center lg:justify-start xl:justify-start">
-						<button className="wow fadeInRight w-52 capitalize w-full border border-tickle-me-pink-600 text-tickle-me-pink-600 text-xl py-3 px-10 bg-white rounded-md shadow-xl
-							hover:shadow-none hover:bg-tickle-me-pink-600 hover:text-white transition">get started</button>
+						<a href="/login" 
+						   className="wow fadeInRight w-52 text-center capitalize border border-tickle-me-pink-600 
+						   text-tickle-me-pink-600 text-xl py-3 px-10 bg-white rounded-md shadow-xl
+							hover:shadow-none hover:bg-tickle-me-pink-600 hover:text-white transition">
+							get started
+						</a>
 					</div>
 				</div>
 			</div>
