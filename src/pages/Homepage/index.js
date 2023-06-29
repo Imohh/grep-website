@@ -28,7 +28,7 @@ const Homepage = () => {
 		        <meta name="description" content="Let us run your errands with ease" />
 		    </Helmet>
 			{/*HERO SECTION*/}
-			<div className="grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 px-5 pb-18 sm:pb-18 md:pb-18 xl:pb-44 lg:pb-44 lg:px-10 xl:px-44 mx-auto">
+			<div className="grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 pt-20 px-5 pb-18 sm:pb-18 md:pb-18 xl:pb-44 lg:pb-44 lg:px-10 xl:px-44 mx-auto">
 				<div className="mt-10 md:mt-20 lg:mt-44 lg:mx-auto">
 					<h1 className="wow fadeInUp text-xl lg:text-2xl text-tickle-me-pink-600 mb-5">Know the status of your order</h1>
 					<h1 className="wow fadeInUp text-4xl lg:text-6xl font-semibold mb-6 text-port-gore-600">Track your order</h1>
@@ -208,7 +208,7 @@ const Homepage = () => {
 					md:text-left lg:text-left text-center font-semibold text-port-gore-600">We are ready to attend to your orders</h2>
 					<p className="wow fadeInRight text-port-gore-600 md:text-left text-center text-lg md:text-xl mb-10">Our errand persons are always happy to receive your orders. 
 					You can set reminders and we will be sure to remind you at all times. It's easy and straight forward.</p>
-					<div className="flex justify-center lg:justify-start xl:justify-start">
+					<div className="flex justify-center md:justify-start lg:justify-start xl:justify-start">
 						<a href="/login" 
 						   className="wow fadeInRight w-52 text-center capitalize border border-tickle-me-pink-600 
 						   text-tickle-me-pink-600 text-xl py-3 px-10 bg-white rounded-md shadow-xl
