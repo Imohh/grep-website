@@ -7,6 +7,7 @@ import Homepage from './pages/Homepage'
 import Download from './pages/Download'
 import Login from './pages/Login'
 import Register from './pages/Register'
+import Dashboard from './pages/Dashboard'
 
 function App() {
   useEffect(() => {
@@ -31,6 +32,7 @@ function App() {
             <Route  path='/download' element={<Download />} />
             <Route  path='/login' element={<Login />} />
             <Route  path='/sign-up' element={<Register />} />
+            <Route  path='/dashboard' element={<Dashboard />} />
           </Routes>
         </BrowserRouter>
         <Footer />
