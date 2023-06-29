@@ -1,4 +1,4 @@
-
+import {Helmet} from "react-helmet";
 import mockup from '../../images/homepage/mockup.png'
 import corn from '../../images/homepage/corn.png'
 import deliverytruck from '../../images/homepage/delivery-truck.png'
@@ -23,6 +23,10 @@ import appstore from '../../images/homepage/applestore.png'
 const Homepage = () => {
 	return (
 		<>
+			<Helmet>
+		        <title>Let us help you run your errands | Grep</title>
+		        <meta name="description" content="Let us run your errands with ease" />
+		    </Helmet>
 			{/*HERO SECTION*/}
 			<div className="grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 px-5 pb-18 sm:pb-18 md:pb-18 xl:pb-44 lg:pb-44 lg:px-10 xl:px-44 mx-auto">
 				<div className="mt-10 md:mt-20 lg:mt-44 lg:mx-auto">

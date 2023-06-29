@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import {Link} from 'react-router-dom'
+import {Helmet} from "react-helmet";
 import axios from 'axios'
 import mockup from '../../images/homepage/navigation-drawer.png'
 
@@ -47,6 +48,10 @@ const Login = () => {
 
 	return (
 		<>
+			<Helmet>
+		        <title>Grep | Login to your account</title>
+		        <meta name="description" content="Grep app Login" />
+		    </Helmet>
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
 				<div className="py-0 xl:py-20 lg:py-36 md:py-20 bg-tickle-me-pink-600 hidden xl:block lg:block md:block">
 					<img className="md:w-2/3 lg:w-1/2 xl:w-5/12 m-auto" src={mockup} alt="login screen" />

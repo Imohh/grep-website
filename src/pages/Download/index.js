@@ -1,3 +1,4 @@
+import {Helmet} from "react-helmet";
 import ge3 from '../../images/homepage/ge3.png'
 import ge4 from '../../images/homepage/ge4.png'
 import ge6 from '../../images/homepage/ge6.png'
@@ -7,6 +8,10 @@ import appstore from '../../images/homepage/applestore.png'
 const Download = () => {
 	return (
 		<>
+			<Helmet>
+		        <title>Grep | Download the Grep app</title>
+		        <meta name="description" content="Grep app download page" />
+		    </Helmet>
 			<div className="overflow-hidden md:h-96 lg:h-96 md:h-fit 
 			grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-4 
 				md:pb-40 md:pt-14 px-10 lg:py-40 lg:pb-96 xl:px-40 mx-auto
